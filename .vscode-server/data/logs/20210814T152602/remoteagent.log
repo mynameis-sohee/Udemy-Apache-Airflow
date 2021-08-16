@@ -1,0 +1,20 @@
+[2021-08-14 15:26:02.244] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-08-14 15:26:02.244] [remoteagent] [info] Extension host agent started.
+[2021-08-14 15:26:02.661] [remoteagent] [info] [127.0.0.1][cafb4fe0][ExtensionHostConnection] New connection established.
+[2021-08-14 15:26:02.662] [remoteagent] [info] [127.0.0.1][896d4ada][ManagementConnection] New connection established.
+[2021-08-14 15:26:02.667] [remoteagent] [info] [127.0.0.1][cafb4fe0][ExtensionHostConnection] <4474> Launched Extension Host Process.
+[2021-08-14 16:00:00.286] [remoteagent] [info] Installing extension: ritwickdey.liveserver
+[2021-08-14 16:00:02.441] [remoteagent] [info] Downloaded extension: ritwickdey.liveserver /home/airflow/.vscode-server/data/CachedExtensionVSIXs/ritwickdey.liveserver-5.6.1
+[2021-08-14 16:00:06.395] [remoteagent] [info] Extracted extension to /home/airflow/.vscode-server/extensions/.8e8f6946-e41d-4573-8174-eebb5a11f1c6: ritwickdey.liveserver
+[2021-08-14 16:00:06.423] [remoteagent] [info] Renamed to /home/airflow/.vscode-server/extensions/ritwickdey.liveserver-5.6.1
+[2021-08-14 16:00:06.425] [remoteagent] [info] Extracting completed. ritwickdey.liveserver
+[2021-08-14 16:00:06.432] [remoteagent] [info] Extension installed successfully: ritwickdey.liveserver
