@@ -21,3 +21,5 @@
 [2021-08-17 14:13:09.599] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/airflow/.vscode-server/bin/379476f0e13988d90fab105c5c19e7abc8b1dea8/extensions/ms-vscode.js-debug/src/extension.js
 [2021-08-17 14:13:12.030] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 292
 [2021-08-17 14:13:15.629] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 292
+[2021-08-17 15:01:35.391] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 292
+[2021-08-17 15:01:52.805] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 292

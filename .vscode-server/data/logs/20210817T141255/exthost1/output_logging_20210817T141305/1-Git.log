@@ -18,3 +18,30 @@ Open repository: /home/airflow
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/airflow/airflow/dags/user_processing.py
+> git cat-file -s 3377fd36d3c5128d5544e47dfe92423c5fe4cbfe
+> git show --textconv :airflow/dags/user_processing.py
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/airflow/airflow/dags/user_processing.py
+> git cat-file -s 3377fd36d3c5128d5544e47dfe92423c5fe4cbfe
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :airflow/dags/user_processing.py
+> git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /home/airflow/airflow/dags/user_processing.py
+> git cat-file -s 3377fd36d3c5128d5544e47dfe92423c5fe4cbfe
+> git show --textconv :airflow/dags/user_processing.py
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
