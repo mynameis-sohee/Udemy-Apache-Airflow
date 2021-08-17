@@ -7,30 +7,10 @@
 * as described in the license https://aka.ms/vscode-remote/license
 *
 
-Extension host agent listening on 37677
+Extension host agent listening on 35339
 
-[10:52:37] Extension host agent started.
-[10:52:38] [127.0.0.1][0bfadbaf][ExtensionHostConnection] New connection established.
-[10:52:38] [127.0.0.1][9578f471][ManagementConnection] New connection established.
-[10:52:38] [127.0.0.1][0bfadbaf][ExtensionHostConnection] <1488> Launched Extension Host Process.
-[12:42:26] [127.0.0.1][9578f471][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-Error: Unexpected SIGPIPE
-    at process.<anonymous> (/home/airflow/.vscode-server/bin/379476f0e13988d90fab105c5c19e7abc8b1dea8/out/bootstrap.js:1:370)
-    at process.emit (events.js:315:20)
-[12:49:00] [127.0.0.1][9578f471][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[12:49:00] [127.0.0.1][9578f471][ManagementConnection] The client has reconnected.
-[12:49:01] [127.0.0.1][0bfadbaf][ExtensionHostConnection] The client has reconnected.
-[14:39:55] [127.0.0.1][9578f471][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[14:39:56] [127.0.0.1][0bfadbaf][ExtensionHostConnection] <1488> Extension Host Process exited with code: 0, signal: null.
-Last EH closed, waiting before shutting down
-[14:39:56] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[14:40:09] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[14:40:09] Cancelling previous shutdown timeout
-[14:40:10] [127.0.0.1][057e1b83][ManagementConnection] New connection established.
-[14:40:10] [127.0.0.1][e343ee30][ExtensionHostConnection] New connection established.
-[14:40:10] [127.0.0.1][e343ee30][ExtensionHostConnection] <74998> Launched Extension Host Process.
-[14:40:35] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
-New EH opened, aborting shutdown
-[14:45:09] New EH opened, aborting shutdown
+[14:12:55] Extension host agent started.
+[14:12:56] [127.0.0.1][c728a9f9][ManagementConnection] New connection established.
+[14:12:56] [127.0.0.1][6c7f7dd1][ExtensionHostConnection] New connection established.
+[14:12:56] [127.0.0.1][6c7f7dd1][ExtensionHostConnection] <1378> Launched Extension Host Process.
+[14:13:15] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)

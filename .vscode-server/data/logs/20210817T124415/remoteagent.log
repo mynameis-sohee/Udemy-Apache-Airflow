@@ -1,0 +1,21 @@
+[2021-08-17 12:44:16.082] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-08-17 12:44:16.082] [remoteagent] [info] Extension host agent started.
+[2021-08-17 12:44:16.902] [remoteagent] [info] [127.0.0.1][5045364f][ExtensionHostConnection] New connection established.
+[2021-08-17 12:44:16.903] [remoteagent] [info] [127.0.0.1][02a3b5e6][ManagementConnection] New connection established.
+[2021-08-17 12:44:16.914] [remoteagent] [info] [127.0.0.1][5045364f][ExtensionHostConnection] <1409> Launched Extension Host Process.
+[2021-08-17 12:44:38.707] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-08-17 14:06:49.605] [remoteagent] [info] [127.0.0.1][02a3b5e6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-08-17 14:07:44.764] [remoteagent] [info] [127.0.0.1][02a3b5e6][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-08-17 14:07:44.765] [remoteagent] [info] [127.0.0.1][6da524db][ManagementConnection] New connection established.
+[2021-08-17 14:07:44.790] [remoteagent] [info] [127.0.0.1][2a030da9][ExtensionHostConnection] New connection established.
+[2021-08-17 14:07:44.815] [remoteagent] [info] [127.0.0.1][2a030da9][ExtensionHostConnection] <12664> Launched Extension Host Process.
+[2021-08-17 14:08:05.821] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
