@@ -1,0 +1,29 @@
+[2021-09-23 22:44:12.418] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-09-23 22:44:12.418] [remoteagent] [info] Extension host agent started.
+[2021-09-23 22:44:12.881] [remoteagent] [info] [127.0.0.1][8bff9615][ExtensionHostConnection] New connection established.
+[2021-09-23 22:44:12.883] [remoteagent] [info] [127.0.0.1][714ab151][ManagementConnection] New connection established.
+[2021-09-23 22:44:12.889] [remoteagent] [info] [127.0.0.1][8bff9615][ExtensionHostConnection] <1801> Launched Extension Host Process.
+[2021-09-23 22:44:47.678] [remoteagent] [info] [127.0.0.1][714ab151][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-09-23 22:44:48.732] [remoteagent] [info] [127.0.0.1][8bff9615][ExtensionHostConnection] <1801> Extension Host Process exited with code: 0, signal: null.
+[2021-09-23 22:44:48.733] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-23 22:44:56.811] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-09-23 22:44:56.811] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-09-23 22:44:56.917] [remoteagent] [info] [127.0.0.1][0d2657ff][ManagementConnection] New connection established.
+[2021-09-23 22:44:57.154] [remoteagent] [info] [127.0.0.1][4ea79949][ExtensionHostConnection] New connection established.
+[2021-09-23 22:44:57.180] [remoteagent] [info] [127.0.0.1][4ea79949][ExtensionHostConnection] <2014> Launched Extension Host Process.
+[2021-09-23 22:45:15.973] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-09-23 22:49:56.813] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-09-23 23:01:03.190] [remoteagent] [info] [127.0.0.1][0d2657ff][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-23 23:03:23.140] [remoteagent] [info] [127.0.0.1][0d2657ff][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-09-23 23:03:23.141] [remoteagent] [info] [127.0.0.1][0d2657ff][ManagementConnection] The client has reconnected.
+[2021-09-23 23:03:23.283] [remoteagent] [info] [127.0.0.1][4ea79949][ExtensionHostConnection] The client has reconnected.
+[2021-09-24 00:34:30.383] [remoteagent] [info] [127.0.0.1][0d2657ff][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

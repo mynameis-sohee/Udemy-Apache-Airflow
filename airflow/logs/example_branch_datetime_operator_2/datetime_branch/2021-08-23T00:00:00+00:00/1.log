@@ -1,0 +1,23 @@
+[2021-09-23 22:52:14,891] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: example_branch_datetime_operator_2.datetime_branch 2021-08-23T00:00:00+00:00 [queued]>
+[2021-09-23 22:52:14,901] {taskinstance.py:876} INFO - Dependencies all met for <TaskInstance: example_branch_datetime_operator_2.datetime_branch 2021-08-23T00:00:00+00:00 [queued]>
+[2021-09-23 22:52:14,901] {taskinstance.py:1067} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-23 22:52:14,901] {taskinstance.py:1068} INFO - Starting attempt 1 of 1
+[2021-09-23 22:52:14,901] {taskinstance.py:1069} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-23 22:52:14,921] {taskinstance.py:1087} INFO - Executing <Task(BranchDateTimeOperator): datetime_branch> on 2021-08-23T00:00:00+00:00
+[2021-09-23 22:52:14,922] {standard_task_runner.py:52} INFO - Started process 3739 to run task
+[2021-09-23 22:52:14,927] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'example_branch_datetime_operator_2', 'datetime_branch', '2021-08-23T00:00:00+00:00', '--job-id', '77', '--pool', 'default_pool', '--raw', '--subdir', '/home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_branch_datetime_operator.py', '--cfg-path', '/tmp/tmpdq6ndnl6', '--error-file', '/tmp/tmp01hbzb76']
+[2021-09-23 22:52:14,928] {standard_task_runner.py:77} INFO - Job 77: Subtask datetime_branch
+[2021-09-23 22:52:14,997] {logging_mixin.py:104} INFO - Running <TaskInstance: example_branch_datetime_operator_2.datetime_branch 2021-08-23T00:00:00+00:00 [running]> on host airflowvm
+[2021-09-23 22:52:15,070] {taskinstance.py:1280} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_branch_datetime_operator_2
+AIRFLOW_CTX_TASK_ID=datetime_branch
+AIRFLOW_CTX_EXECUTION_DATE=2021-08-23T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-08-23T00:00:00+00:00
+[2021-09-23 22:52:15,071] {skipmixin.py:124} INFO - Following branch ['date_in_range']
+[2021-09-23 22:52:15,073] {skipmixin.py:155} INFO - Skipping tasks ['date_outside_range']
+[2021-09-23 22:52:15,117] {taskinstance.py:1184} INFO - Marking task as SUCCESS. dag_id=example_branch_datetime_operator_2, task_id=datetime_branch, execution_date=20210823T000000, start_date=20210923T225214, end_date=20210923T225215
+[2021-09-23 22:52:15,157] {taskinstance.py:1245} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-09-23 22:52:15,163] {local_task_job.py:151} INFO - Task exited with return code 0
